@@ -1,0 +1,46 @@
+### Node
+node_modules/
+
+### Vite / build
+dist/
+.vite/
+.cache/
+
+### Environment
+.env
+.env.*.local
+
+### Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+### Dependency locks
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+### Coverage
+coverage/
+
+### Testing
+.vitest/
+
+### Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+### OS files
+.DS_Store
+Thumbs.db
+
+### Misc
+.eslintcache
+*.local
+
